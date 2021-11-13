@@ -8,7 +8,8 @@ import MyGallery from './Component/Gallery';
 import Categories from './Component/categories';
 import React from 'react';
 import Chatbot from './Component/Chatbot';
-
+import ContactUs from './Component/ContactUs';
+import Feedback from './Component/Feedback';
 
 function App() {
         return(
@@ -19,9 +20,9 @@ function App() {
 
                     <Routes>
                     <Route path='/' exact element={<MyScheduler/>} />
-                    <Route path='/feedback' element={App} />
+                    <Route path='/feedback' element={<Feedback/>} />
                     <Route path='/location' element={<Categories/>} />
-                    <Route path='/contactus' element={App} />
+                    <Route path='/contactus' element={<ContactUs/>} />
                     <Route path='/mygallery' element={<MyGallery/>} />
                     <Route path='/chatbot' element={<Chatbot/>} >
                     </Route>
