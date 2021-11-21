@@ -7,7 +7,7 @@ it('has no visual regressions', async () => {
   render(<App />);
 
   const screenshot = await generateImage();
-  expect(screenshot).toMatchInlineSnapshot({
+  expect(screenshot).toMatchImageSnapshot({
     failureThreshold: 0.005,
     failureThresholdType: 'percent'
   });
