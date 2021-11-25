@@ -18,7 +18,7 @@ function ItemList({ category }) {
       var parsedData = JSON.parse(data);
       // console.log(parsedData);
       // console.log(typeof data);
-      window.listItems = parsedData.map((pd) => (
+      window.$listItems = parsedData.map((pd) => (
         <Item
           name={pd.name}
           category={pd.category}
@@ -26,8 +26,6 @@ function ItemList({ category }) {
           imageurl={pd.imageURL}
         ></Item>
       ));
-      // console.log(window.listItems);
-      // return window.listItems;
     },
     function (err) {
       console.log(err);
@@ -35,7 +33,7 @@ function ItemList({ category }) {
   );
   // console.log("LIST ITEMS");
   // console.log(listItems);
-  return <div className="itemlist">{window.listItems}</div>;
+  return <div className="itemlist">{window.$listItems}</div>;
 }
 
 export default ItemList;

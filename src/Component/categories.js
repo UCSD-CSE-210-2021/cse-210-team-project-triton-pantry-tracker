@@ -6,6 +6,7 @@ import { useState } from "react";
 
 function Categories() {
   const [category, setCategory] = useState("Produce");
+
   return (
     <div>
       <div className="jumbotron jumbotron-fluid categoryDiv">
