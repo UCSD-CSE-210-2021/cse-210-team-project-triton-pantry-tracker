@@ -15,6 +15,8 @@
     "react-router": "^6.0.1",
     "react-router-dom": "^6.0.1",
     "react-scripts": "4.0.3",
+    "save": "^2.4.0",
+    "sheetdb-node": "0.0.12",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

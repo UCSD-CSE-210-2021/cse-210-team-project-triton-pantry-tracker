@@ -19,14 +19,14 @@ function Categories() {
         <button
           className="categoryButton btn btn-primary"
           name="Dairy/Frozen"
-          onClick={() => setCategory("DairyFrozen")}
+          onClick={() => setCategory("Dairy/Frozen")}
         >
           Dariy/Frozen
         </button>
         <button
           className="categoryButton btn btn-primary"
           name="Dry Products"
-          onClick={() => setCategory("DryProducts")}
+          onClick={() => setCategory("Dry Products")}
         >
           Dry Products
         </button>

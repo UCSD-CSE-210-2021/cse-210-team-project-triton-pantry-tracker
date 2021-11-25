@@ -1,17 +1,41 @@
 import react from "react";
 import Item from "./items";
+import sheetdb from "sheetdb-node";
+import { Link } from "react-router-dom";
+import { parseDate } from "devextreme/localization";
 
 function ItemList({ category }) {
-  return (
-    <div className="itemlist">
-      {/* {category} */}
-      <Item category={category} />
-      <Item category={category} />
-      <Item category={category} />
-      <Item category={category} />
-      <Item category={category} />
-    </div>
+  console.log(category);
+  var config = {
+    address: "trzlwm6ups5th",
+    auth_login: "1jj470ii",
+    auth_password: "bxgiau56agkk54tayopt",
+  };
+  // window.$listItems = [];
+  var client = sheetdb(config);
+  client.read({ search: { category: category } }).then(
+    function (data) {
+      var parsedData = JSON.parse(data);
+      // console.log(parsedData);
+      // console.log(typeof data);
+      window.listItems = parsedData.map((pd) => (
+        <Item
+          name={pd.name}
+          category={pd.category}
+          quantity={pd.quantity}
+          imageurl={pd.imageURL}
+        ></Item>
+      ));
+      // console.log(window.listItems);
+      // return window.listItems;
+    },
+    function (err) {
+      console.log(err);
+    }
   );
+  // console.log("LIST ITEMS");
+  // console.log(listItems);
+  return <div className="itemlist">{window.listItems}</div>;
 }
 
 export default ItemList;
