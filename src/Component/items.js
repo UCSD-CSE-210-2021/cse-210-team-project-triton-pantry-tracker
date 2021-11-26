@@ -5,7 +5,7 @@ function Item({ name, category, quantity, imageurl }) {
     <div className="item">
       <img className="container" src={imageurl} alt="product.jpg" />
       <br />
-      Prodcut Name: {name} <br />
+      Product Name: {name} <br />
       Quantity: {quantity} <br />
       Category: {category}
     </div>
