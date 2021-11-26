@@ -1,17 +1,18 @@
 import React from "react";
-import ReactDom from "react-dom";
+// import ReactDom from "react-dom";
 import "./categories.css";
 import ItemList from "./itemlist";
 import { useState, useEffect } from "react";
 import sheetdb from "sheetdb-node";
 import Item from "./items";
+import auth from "./auth";
 
 function Categories() {
   const [cat, setCat] = useState("Init");
   const [listItemsState, setListItemsState] = useState(window.$produceItems);
 
   var config = {
-    address: "zryjil69mi7hs",
+    address: auth.AUTH_API_ID,
   };
   window.$listItems = [];
   var client = sheetdb(config);
