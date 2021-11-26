@@ -10,13 +10,19 @@
     "axios": "^0.24.0",
     "devextreme": "^21.1.5",
     "devextreme-react": "^21.1.5",
+<<<<<<< HEAD
     "express": "^4.17.1",
     "nodemailer": "^6.7.0",
+=======
+    "google-spreadsheet": "^3.2.0",
+>>>>>>> 9db29a6231871db767907afb34d72476eefe0887
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^6.0.1",
     "react-router-dom": "^6.0.1",
     "react-scripts": "4.0.3",
+    "save": "^2.4.0",
+    "sheetdb-node": "0.0.12",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

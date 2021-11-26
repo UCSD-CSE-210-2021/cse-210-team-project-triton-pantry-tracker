@@ -1,15 +1,17 @@
-import 'devextreme/dist/css/dx.common.css';
-import 'devextreme/dist/css/dx.light.css';
-import '../App.css';
-import { Scheduler, View, Editing, Resource } from 'devextreme-react/scheduler';
-import { data, pantry } from '../data.js';
-import React from 'react';
-const currentDate = new Date(2021, 10,1)
-const groups = ['pantryID'];
+import "devextreme/dist/css/dx.common.css";
+import "devextreme/dist/css/dx.light.css";
+import "../App.css";
+import { Scheduler, View, Editing, Resource } from "devextreme-react/scheduler";
+import { data, pantry } from "../data.js";
+import React from "react";
+const currentDate = new Date(2021, 10, 1);
+const groups = ["pantryID"];
 class MyScheduler extends React.Component {
   render() {
-  return (
-        <Scheduler 
+    console.log(data);
+
+    return (
+      <Scheduler
         id="scheduler"
         dataSource={data}
         //textExpr="title"
@@ -20,38 +22,22 @@ class MyScheduler extends React.Component {
         currentDate={currentDate}
         groups={groups}
         timeZone="America/Los_Angeles"
-        >
-        <Resource
-            dataSource={pantry}
-            fieldExpr="pantryID"
-            label="Pantry"
-        />
-        <View
-            type="day"
-            startDayHour={8}
-            endDayHour={20}
-        />
-        <View
-            type="week"
-            startDayHour={8}
-            endDayHour={20}
-        />
-        <View 
-            type="month" 
-        />
+      >
+        <Resource dataSource={pantry} fieldExpr="pantryID" label="Pantry" />
+        <View type="day" startDayHour={8} endDayHour={20} />
+        <View type="week" startDayHour={8} endDayHour={20} />
+        <View type="month" />
         <Editing
-            allowDragging={false}
-            allowTimeZoneEditing={true}
-            allowAdding={false}
-            allowDeleting={false}
-            allowUpdating={false}
-            allowResizing={false}
-            
-            
+          allowDragging={false}
+          allowTimeZoneEditing={true}
+          allowAdding={false}
+          allowDeleting={false}
+          allowUpdating={false}
+          allowResizing={false}
         />
-        </Scheduler>
-  );
-}
+      </Scheduler>
+    );
+  }
 }
 
 export default MyScheduler;
