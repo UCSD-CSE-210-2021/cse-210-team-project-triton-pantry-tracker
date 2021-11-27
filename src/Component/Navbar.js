@@ -8,21 +8,37 @@ import "./Gallery"
 function Navbar() {
     return (
         <>
-        <div className="Navbar">
+        {/* <div className="Navbar"> */}
+        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
             <div className="leftSide">
                 <div className="ml-auto">
                     <div className="links">
-                        <Link to = "/">Home</Link>
-                        <Link to = "/feedback">Feedback</Link>
-                        <Link to = "/location">Locations</Link>
-                        <Link to = "/contactus">ContactUs</Link>
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                        <Link to = "/" >Home</Link>
+                        </li>
+                        <li className="nav-item">
+                        <Link to = "/location">Grad Housing Pantry</Link>
+                        </li>
+                        <li className="nav-item">
+                        <Link to = "/location">Student Center A Pantry</Link>
+                        </li>
+                        <li className="nav-item">
+                        <Link to = "/contactus">Contact Us</Link>
+                        </li>
+                        {/* <li className="nav-item">
                         <Link to= "/mygallery">Gallery</Link>
+                        </li> */}
+                        <li className="nav-item">
                         <Link to= "/chatbot">Chatbot</Link>
+                        </li>
+                    </ul>
                     </div>
                 </div>
             </div>
             <div className="rightSide"></div>
-        </div>
+        </nav>
+        {/* </div> */}
     </>
     )
 }

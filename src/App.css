@@ -3,6 +3,28 @@
   height: 100vh;
 }
 
+.gallery{
+  height: 500px;
+  width: 700px;
+  padding: 50px;
+}
+
+.imagefilter{
+  max-width: 650px;
+  max-height: 500px;
+}
+
+.spacing{
+  margin: 30px;
+  padding: 30px;
+}
+
+a { color: #ccc; } 
+.nav-item{
+padding: 10px
+
+}
+
 body{
   margin: 0;
   padding: 0;

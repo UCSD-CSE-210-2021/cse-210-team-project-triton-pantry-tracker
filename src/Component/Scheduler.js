@@ -4,7 +4,7 @@ import "../App.css";
 import { Scheduler, View, Editing, Resource } from "devextreme-react/scheduler";
 import { data, pantry } from "../data.js";
 import React from "react";
-const currentDate = new Date(2021, 10, 1);
+const currentDate = new Date();
 const groups = ["pantryID"];
 class MyScheduler extends React.Component {
   render() {
