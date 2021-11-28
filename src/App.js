@@ -19,7 +19,8 @@ function App() {
 
                     <Routes>
                     <Route path='/' exact element={<MyScheduler/>} />
-                    <Route path='/location' element={<Categories/>} />
+                    <Route path='/gradhousing' element={<Categories/>} />
+                    <Route path='/studentcenter' element={<Categories/>} />
                     <Route path='/contactus' element={<ContactUs/>} />
                     <Route path='/mygallery' element={<MyGallery/>} />
                     <Route path='/chatbot' element={<Chatbot/>} >

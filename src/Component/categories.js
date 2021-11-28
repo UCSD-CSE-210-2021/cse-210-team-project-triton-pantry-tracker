@@ -10,13 +10,20 @@ import auth from "./auth";
 function Categories() {
   const [cat, setCat] = useState("Init");
   const [listItemsState, setListItemsState] = useState(window.$produceItems);
+  
+  var pantrylocation = window.location.pathname
+  if (pantrylocation.indexOf("gradhousing") > -1 ) {
+    pantrylocation = "Graduate Housing"
+  } else {
+    pantrylocation = "Student Center A"
+  }
 
   var config = {
     address: auth.AUTH_API_ID,
   };
   window.$listItems = [];
   var client = sheetdb(config);
-  client.read({ search: { category: "Produce" } }).then(
+  client.read({ search: { category: "Produce", location: pantrylocation } }).then(
     function (data) {
       var parsedData = JSON.parse(data);
       console.log(parsedData);
@@ -34,7 +41,7 @@ function Categories() {
       console.log(err);
     }
   );
-  client.read({ search: { category: "Dairy/Frozen" } }).then(
+  client.read({ search: { category: "Dairy/Frozen", location: pantrylocation } }).then(
     function (data) {
       var parsedData = JSON.parse(data);
       console.log(parsedData);
@@ -52,7 +59,7 @@ function Categories() {
       console.log(err);
     }
   );
-  client.read({ search: { category: "Dry Products" } }).then(
+  client.read({ search: { category: "Dry Products", location: pantrylocation } }).then(
     function (data) {
       var parsedData = JSON.parse(data);
       console.log(parsedData);
@@ -70,7 +77,7 @@ function Categories() {
       console.log(err);
     }
   );
-  client.read({ search: { category: "Produce" } }).then(
+  client.read({ search: { category: "Produce", location: pantrylocation } }).then(
     function (data) {
       var parsedData = JSON.parse(data);
       // console.log(parsedData);
@@ -110,7 +117,7 @@ function Categories() {
             setListItemsState(window.$dairyItems);
           }}
         >
-          Dariy/Frozen
+          Dairy/Frozen
         </button>
         <button
           className="categoryButton btn btn-primary"

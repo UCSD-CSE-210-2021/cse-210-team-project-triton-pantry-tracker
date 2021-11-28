@@ -18,10 +18,10 @@ function Navbar() {
                         <Link to = "/" >Home</Link>
                         </li>
                         <li className="nav-item">
-                        <Link to = "/location">Grad Housing Pantry</Link>
+                        <Link to = "/gradhousing">Grad Housing Pantry</Link>
                         </li>
                         <li className="nav-item">
-                        <Link to = "/location">Student Center A Pantry</Link>
+                        <Link to = "/studentcenter">Student Center A Pantry</Link>
                         </li>
                         <li className="nav-item">
                         <Link to = "/contactus">Contact Us</Link>
