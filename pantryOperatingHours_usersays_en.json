@@ -1,0 +1,146 @@
+[
+  {
+    "id": "9e2ce225-3388-49c3-96b7-76e981d5c28a",
+    "data": [
+      {
+        "text": "close",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "93d49d00-e905-4407-8480-4953ed12ca1a",
+    "data": [
+      {
+        "text": "when does the ",
+        "userDefined": false
+      },
+      {
+        "text": "pantry close",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ce2b426f-b796-406a-9abd-689d030a6b73",
+    "data": [
+      {
+        "text": "open",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c9ddcd45-a51e-429f-bc4b-8590b868c68a",
+    "data": [
+      {
+        "text": "when does the ",
+        "userDefined": false
+      },
+      {
+        "text": "pantry open",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "79c01839-2cef-48aa-bf3c-5cf118972a1a",
+    "data": [
+      {
+        "text": "operating",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d645f720-ea2b-44fb-b062-d6b038c2210b",
+    "data": [
+      {
+        "text": "hours",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d181a83d-3d8d-4182-a2d4-495d1a1e60dc",
+    "data": [
+      {
+        "text": "operating hours",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "94c58500-a5c7-4370-810e-74a75fd509e3",
+    "data": [
+      {
+        "text": "What are the pantry ",
+        "userDefined": false
+      },
+      {
+        "text": "operating hours",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " on Monday?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en",
+    "updated": 0
+  }
+]

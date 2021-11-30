@@ -1,0 +1,40 @@
+[
+  {
+    "id": "9445b1b4-9da4-4d51-aac3-78c3f50f978d",
+    "data": [
+      {
+        "text": "pay",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "57938153-2e74-46ef-952e-8a38d1b908fe",
+    "data": [
+      {
+        "text": "Do I ",
+        "userDefined": false
+      },
+      {
+        "text": "need to pay",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

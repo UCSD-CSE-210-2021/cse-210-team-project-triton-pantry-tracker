@@ -1,0 +1,40 @@
+[
+  {
+    "id": "f03354d6-42c6-4248-82f5-557f105cbb35",
+    "data": [
+      {
+        "text": "work",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cd6d1750-657d-41d0-8430-41431556e604",
+    "data": [
+      {
+        "text": "How does the ",
+        "userDefined": false
+      },
+      {
+        "text": "pantry work",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
