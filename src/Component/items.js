@@ -2,12 +2,12 @@ import react from "react";
 
 function Item({ name, category, quantity, imageurl }) {
   return (
-    <div className="item">
+    <div className="item text-center">
       <img className="container" src={imageurl} alt="product.jpg" />
       <br />
-      Product Name: {name} <br />
-      Quantity: {quantity} <br />
-      Category: {category}
+      <b style={{fontFamily:"Book Antiqua", fontSize: "1.4rem"}}>Product Name: {name}<br />
+      Quantity: {quantity}<br />
+      Category: {category}</b>
     </div>
   );
 }

@@ -38,10 +38,11 @@ body {
 .categoryButton {
   padding: 1em;
   position: relative;
-  margin: 50px;
+  margin: 30px;
   /* position: absolute; */
   /* top: 50%; */
-  left: 25%;
+  /* left: 25%; */
+  color: #f1f5f8;
   /* margin: -25px 0 0 -25px; */
 }
 
@@ -63,8 +64,8 @@ body {
 .item h4 {
   color: #617d98;
   font-size: 0.75rem;
-  margin-top: 0.25rem;
+  /* margin-top: 0.25rem; */
 }
 .item p {
-  margin-top: 0.5rem;
+  /* margin-top: 0.5rem; */
 }

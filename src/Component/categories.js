@@ -108,9 +108,9 @@ function Categories() {
 
   return (
     <div>
-      <div className=" categoryDiv restrict">
+      <div className=" categoryDiv restrict text-center">
         <button
-          className="categoryButton btn btn-primary"
+          className="categoryButton btn" style={{backgroundColor: "#22423b"}}
           name="Produce"
           onClick={() => {
             setCat("Produce");
@@ -120,7 +120,7 @@ function Categories() {
           Produce
         </button>
         <button
-          className="categoryButton btn btn-primary"
+          className="categoryButton btn" style={{backgroundColor: "#22423b"}}
           name="Dairy/Frozen"
           onClick={() => {
             setCat("Dairy/Frozen");
@@ -130,7 +130,7 @@ function Categories() {
           Dairy/Frozen
         </button>
         <button
-          className="categoryButton btn btn-primary"
+          className="categoryButton btn" style={{backgroundColor: "#22423b"}}
           name="Dry Products"
           onClick={() => {
             setCat("Dry Products");

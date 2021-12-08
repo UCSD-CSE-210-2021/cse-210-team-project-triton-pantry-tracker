@@ -16,7 +16,7 @@ import background from "./Images/bg_logo.png"
 
 function App() {
         return(
-            <div className="App" style={{backgroundImage: `url(${background})` ,backgroundRepeat: 'no-repeat',backgroundSize:"100%"}}>
+            <div className="App" style={{backgroundSize:"cover",backgroundImage: `url(${background})` ,backgroundRepeat: 'repeat-y',backgroundSize:"100%", backgroundAttachment:"fixed"}}>
                 
             <Router>
             <Navbar />

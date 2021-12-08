@@ -1,3 +1,3 @@
-const auth = { AUTH_API_ID: "ovwxu26apa43c" };
+const auth = { AUTH_API_ID: "buxs3n6joixb9" };
 
 export default auth;

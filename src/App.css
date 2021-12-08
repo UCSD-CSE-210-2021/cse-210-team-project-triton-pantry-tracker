@@ -1,8 +1,13 @@
 .App{
   width: 100vw;
   height: 100vh;
+    overscroll-behavior: none;
+  
 }
 
+html {
+  overscroll-behavior: none
+}
 .gallery{
   height: 500px;
   width: 700px;
