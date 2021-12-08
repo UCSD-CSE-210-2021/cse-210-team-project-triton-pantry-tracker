@@ -11,7 +11,7 @@ const dataSource = [
 
 function Chatbot(params) {
 
-        return ( <div className="jumbotron spacing text-center ">
+        return ( <div className=" spacing text-center " >
             <iframe
             allow="microphone;"
             width="550"

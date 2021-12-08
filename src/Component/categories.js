@@ -108,7 +108,7 @@ function Categories() {
 
   return (
     <div>
-      <div className="jumbotron jumbotron-fluid categoryDiv restrict">
+      <div className=" categoryDiv restrict">
         <button
           className="categoryButton btn btn-primary"
           name="Produce"

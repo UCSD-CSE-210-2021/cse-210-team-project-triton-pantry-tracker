@@ -15,8 +15,13 @@
 }
 
 .spacing{
-  margin: 30px;
+  margin: 10px;
   padding: 30px;
+}
+
+.jumbfoot{
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 a { color: #ccc; } 
@@ -25,9 +30,14 @@ padding: 10px
 
 }
 
+.jumbotron{
+    background: #f2f2f2;
+}
+
 body{
   margin: 0;
   padding: 0;
+  /* background-image: url("./Images/tracker_logo.png"); */
 }
 
 .Navbar {

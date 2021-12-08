@@ -9,21 +9,26 @@ import Categories from './Component/categories';
 import React from 'react';
 import Chatbot from './Component/Chatbot';
 import ContactUs from './Component/ContactUs';
+import AboutUs from './Component/AboutUs';
+import { ImageList } from '@material-ui/core';
+import { Url } from 'devextreme-react/chart';
+import background from "./Images/bg_logo.png"
 
 function App() {
         return(
-            <div className="App">
+            <div className="App" style={{backgroundImage: `url(${background})` ,backgroundRepeat: 'no-repeat',backgroundSize:"100%"}}>
                 
             <Router>
             <Navbar />
 
                     <Routes>
-                    <Route path='/' exact element={<MyScheduler/>} />
+                    <Route path='/' exact element={<AboutUs/>} />
                     <Route path='/gradhousing' element={<Categories/>} />
                     <Route path='/studentcenter' element={<Categories/>} />
                     <Route path='/contactus' element={<ContactUs/>} />
                     <Route path='/mygallery' element={<MyGallery/>} />
-                    <Route path='/chatbot' element={<Chatbot/>} >
+                    <Route path='/chatbot' element={<Chatbot/>}  />
+                    <Route path='/scheduler' element={<MyScheduler/>} >
                     </Route>
                     </Routes>
             </Router>
