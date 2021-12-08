@@ -13,10 +13,20 @@ function Categories() {
   
   var pantrylocation = window.location.pathname
   if (pantrylocation.indexOf("gradhousing") > -1 ) {
-    pantrylocation = "Graduate Housing"
+    pantrylocation = "Graduate Housing";
   } else {
-    pantrylocation = "Student Center A"
-  }
+    pantrylocation = "Student Center A";
+  };
+
+  useEffect (() => {
+    if (window.location.href != document.referrer) {
+      window.location.reload();
+      setCat("Init");
+      setListItemsState(window.$produceItems);
+      window.$listItems = [];
+    }
+  });
+
 
   var config = {
     address: auth.AUTH_API_ID,

@@ -1,0 +1,40 @@
+[
+    {
+      "id": "4e1f7e93-9a56-4554-99ac-67b552ccd0f1",
+      "data": [
+        {
+          "text": "reset",
+          "meta": "@sys.any",
+          "alias": "any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "en",
+      "updated": 0
+    },
+    {
+      "id": "7b1c1348-2a5b-4209-875b-a2b4bc89648f",
+      "data": [
+        {
+          "text": "When does the ",
+          "userDefined": false
+        },
+        {
+          "text": "point system reset",
+          "meta": "@sys.any",
+          "alias": "any",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "en",
+      "updated": 0
+    }
+  ]

@@ -5,6 +5,8 @@ import 'devextreme/dist/css/dx.light.css';
 import "../App.css";
 import "./Gallery"
 
+import { ReactComponent as Logo } from './image2vector.svg';
+
 function Navbar() {
     return (
         <>
@@ -36,7 +38,9 @@ function Navbar() {
                     </div>
                 </div>
             </div>
-            <div className="rightSide"></div>
+            <div className="rightSide">
+            <Logo height={60} width={150} />
+            </div>
         </nav>
         {/* </div> */}
     </>

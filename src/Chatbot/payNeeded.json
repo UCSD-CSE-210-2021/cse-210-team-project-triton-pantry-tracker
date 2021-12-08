@@ -1,0 +1,50 @@
+{
+    "id": "18f7d8fb-849b-44e4-a9e8-d5e2cb35e492",
+    "name": "payNeeded",
+    "auto": true,
+    "contexts": [],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "",
+        "affectedContexts": [],
+        "parameters": [
+          {
+            "id": "a0ea6fcd-c2ff-4fc4-ab1e-2f6195e2b8c4",
+            "name": "any",
+            "required": true,
+            "dataType": "@sys.any",
+            "value": "$any",
+            "defaultValue": "",
+            "isList": false,
+            "prompts": [],
+            "promptMessages": [],
+            "noMatchPromptMessages": [],
+            "noInputPromptMessages": [],
+            "outputDialogContexts": []
+          }
+        ],
+        "messages": [
+          {
+            "type": "0",
+            "title": "",
+            "textToSpeech": "",
+            "lang": "en",
+            "speech": [
+              "No. Any item may be chosen, as long as the limits set for each item are followed, and the overall total is within the 15 points limit."
+            ],
+            "condition": ""
+          }
+        ],
+        "speech": []
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+  }
