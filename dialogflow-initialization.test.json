@@ -1,0 +1,31 @@
+{
+  "responseId": "01b50038-18c1-44b3-a3ca-3576e9251473-87a8b854",
+  "queryResult": {
+    "queryText": "Hi",
+    "action": "input.welcome",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Hi I am Lisa. The Triton Food Pantry Bot. How may I help you today ?",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Hi I am Lisa. The Triton Food Pantry Bot. How may I help you today ?"
+          ]
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/tritonpantrytracker/agent/intents/6ad30a69-4f3b-4160-aaa5-47bc1b18213a",
+      "displayName": "Default Welcome Intent"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en",
+    "sentimentAnalysisResult": {
+      "queryTextSentiment": {
+        "score": 0.2,
+        "magnitude": 0.2
+      }
+    }
+  }
+}
