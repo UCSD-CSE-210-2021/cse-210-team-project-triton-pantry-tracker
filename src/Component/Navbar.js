@@ -7,7 +7,6 @@ import "./Gallery";
 import { ReactComponent as Logo } from "./logo_tracker.svg";
 
 // import { ReactComponent as Logo } from './image2vector.svg';
-
 function Navbar() {
   return (
     <>
@@ -21,48 +20,56 @@ function Navbar() {
             <div className="links">
               <ul
                 className="navbar-nav"
-                style={{ fontSize: "25px", fontFamily: "Book Antiqua" }}>
+                style={{ fontSize: "25px", fontFamily: "Book Antiqua" }}
+              >
                 <li className="nav-item">
                   <Link to="/">
-                    <b style={{ color: "white" }}>Home</b>
+                    <b className="navtext">Home</b>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/scheduler">
-                    <b style={{ color: "white" }}>Schedule</b>
+                    <b className="navtext">Schedule</b>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/gradhousing">
-                    <b style={{ color: "white" }}>Grad Housing Pantry</b>
+                    <b className="navtext">Grad Housing Pantry</b>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/studentcenter">
-                    <b style={{ color: "white" }}>Student Center A Pantry</b>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link to="/contactus">
-                    <b style={{ color: "white" }}>Contact Us</b>
+                    <b className="navtext">Student Center A Pantry</b>
                   </Link>
                 </li>
                 {/* <li className="nav-item">
                         <Link to= "/mygallery">Gallery</Link>
                         </li> */}
-                        <li className="nav-item">
-                        <Link to= "/chatbot"><b style={{color:"white"}}>Chatbot</b></Link>
-                        </li>
-                        <li className="nav-item">
-                        <Link to= "/dashboard"><b style={{color:"white"}}>GradHousingDashboard</b></Link>
-                        </li>
-                        <li className="nav-item">
-                        <Link to= "/dashboard1"><b style={{color:"white"}}>StudentCenterDashboard</b></Link>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
+
+                <li className="nav-item">
+                  <Link to="/dashboard">
+                    <b className="navtext">Grad Housing Analytics</b>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/dashboard1">
+                    <b className="navtext">Student Center Analytics</b>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/chatbot">
+                    <b className="navtext">Chatbot</b>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/contactus">
+                    <b className="navtext">Contact Us</b>
+                  </Link>
+                </li>
+              </ul>
             </div>
+          </div>
+        </div>
       </nav>
       {/* </div> */}
     </>

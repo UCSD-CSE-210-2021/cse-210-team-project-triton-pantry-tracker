@@ -4,6 +4,13 @@
   overscroll-behavior: none;
 }
 
+.navtext {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 5px;
+  padding: 5px;
+}
+
 .parallax {
   /* The image used */
   background-image: url("./Images/bg_logo.png");
