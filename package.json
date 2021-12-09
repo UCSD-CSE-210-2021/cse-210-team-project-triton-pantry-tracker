@@ -2,6 +2,7 @@
   "name": "triton-food-pantry",
   "version": "0.1.0",
   "private": true,
+
   "dependencies": {
     "@feedback-fish/react": "^1.2.1",
     "@material-ui/core": "^4.12.3",
@@ -25,9 +26,10 @@
     "sheetdb-node": "0.0.12",
     "tableau-api": "^2.2.3",
     "web-vitals": "^1.1.2"
+    
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
