@@ -13,6 +13,8 @@ import AboutUs from './Component/AboutUs';
 import { ImageList } from '@material-ui/core';
 import { Url } from 'devextreme-react/chart';
 import background from "./Images/bg_logo.png"
+import Dashboard from './Component/OMSDashboard';
+import Dashboard1 from './Component/SCDashboard';
 
 function App() {
         return(
@@ -28,7 +30,9 @@ function App() {
                     <Route path='/contactus' element={<ContactUs/>} />
                     <Route path='/mygallery' element={<MyGallery/>} />
                     <Route path='/chatbot' element={<Chatbot/>}  />
-                    <Route path='/scheduler' element={<MyScheduler/>} >
+                    <Route path='/scheduler' element={<MyScheduler/>} />
+                    <Route path='/dashboard' element={<Dashboard/>} />
+                    <Route path='/dashboard1' element={<Dashboard1/>} >   
                     </Route>
                     </Routes>
             </Router>

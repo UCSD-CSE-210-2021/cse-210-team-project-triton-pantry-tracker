@@ -39,6 +39,12 @@ function Navbar() {
                         <li className="nav-item">
                         <Link to= "/chatbot"><b style={{color:"white"}}>Chatbot</b></Link>
                         </li>
+                        <li className="nav-item">
+                        <Link to= "/dashboard"><b style={{color:"white"}}>GradHousingDashboard</b></Link>
+                        </li>
+                        <li className="nav-item">
+                        <Link to= "/dashboard1"><b style={{color:"white"}}>StudentCenterDashboard</b></Link>
+                        </li>
                     </ul>
                     </div>
                 </div>
