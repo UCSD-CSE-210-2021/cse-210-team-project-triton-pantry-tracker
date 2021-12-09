@@ -18,23 +18,23 @@ function Categories() {
     pantrylocation = "Student Center A";
   }
 
-  useEffect(() => {
-    if (window.location.href != document.referrer) {
-      window.location.reload();
-      setCat("Init");
-      console.log(window.location.href);
-      console.log(document.referrer);
+  // useEffect(() => {
+  //   if (window.location.href != document.referrer) {
+  //     window.location.reload();
+  //     setCat("Init");
+  //     console.log(window.location.href);
+  //     console.log(document.referrer);
 
-      // if (pantrylocation === "Graduate Housing") {
+  //     // if (pantrylocation === "Graduate Housing") {
 
-      // }
-      window.location.href = window.location.pathname;
-      setListItemsState(window.$produceItems);
-      console.log(window.location.href);
+  //     // }
+  //     window.location.href = window.location.pathname;
+  //     setListItemsState(window.$produceItems);
+  //     console.log(window.location.href);
 
-      window.$listItems = [];
-    }
-  });
+  //     window.$listItems = [];
+  //   }
+  // });
 
   var config = {
     address: auth.AUTH_API_ID,
