@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 function Dashboard() {
 
   useEffect(() => {
-    window.location.href = "https://public.tableau.com/app/profile/triton.food.pantry/viz/SCA_Full/Dashboard1";
+    window.location.href = "https://public.tableau.com/views/SCA_Full/Dashboard1?:display_count=y&:showVizHome=no&:origin=viz_share_link";
   }, []);
 
   return (
