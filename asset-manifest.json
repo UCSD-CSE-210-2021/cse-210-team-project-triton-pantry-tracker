@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0d36b30.chunk.css",
-    "main.js": "/static/js/main.41d8b782.chunk.js",
-    "main.js.map": "/static/js/main.41d8b782.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d7067193.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d7067193.js.map",
-    "static/css/2.4bdf1820.chunk.css": "/static/css/2.4bdf1820.chunk.css",
-    "static/js/2.df49d184.chunk.js": "/static/js/2.df49d184.chunk.js",
-    "static/js/2.df49d184.chunk.js.map": "/static/js/2.df49d184.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.4bdf1820.chunk.css.map": "/static/css/2.4bdf1820.chunk.css.map",
-    "static/css/main.b0d36b30.chunk.css.map": "/static/css/main.b0d36b30.chunk.css.map",
-    "static/js/2.df49d184.chunk.js.LICENSE.txt": "/static/js/2.df49d184.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/bg_logo.08cf82c6.png",
-    "static/media/dx.light.css": "/static/media/dxicons.e4acc9c2.woff2",
-    "static/media/logo_tracker.a4c23480.svg": "/static/media/logo_tracker.a4c23480.svg"
+    "main.css": "/cse-210-team-project-triton-pantry-tracker/static/css/main.a12e0c2d.chunk.css",
+    "main.js": "/cse-210-team-project-triton-pantry-tracker/static/js/main.41d8b782.chunk.js",
+    "main.js.map": "/cse-210-team-project-triton-pantry-tracker/static/js/main.41d8b782.chunk.js.map",
+    "runtime-main.js": "/cse-210-team-project-triton-pantry-tracker/static/js/runtime-main.9c3315cc.js",
+    "runtime-main.js.map": "/cse-210-team-project-triton-pantry-tracker/static/js/runtime-main.9c3315cc.js.map",
+    "static/css/2.63e1412a.chunk.css": "/cse-210-team-project-triton-pantry-tracker/static/css/2.63e1412a.chunk.css",
+    "static/js/2.df49d184.chunk.js": "/cse-210-team-project-triton-pantry-tracker/static/js/2.df49d184.chunk.js",
+    "static/js/2.df49d184.chunk.js.map": "/cse-210-team-project-triton-pantry-tracker/static/js/2.df49d184.chunk.js.map",
+    "index.html": "/cse-210-team-project-triton-pantry-tracker/index.html",
+    "static/css/2.63e1412a.chunk.css.map": "/cse-210-team-project-triton-pantry-tracker/static/css/2.63e1412a.chunk.css.map",
+    "static/css/main.a12e0c2d.chunk.css.map": "/cse-210-team-project-triton-pantry-tracker/static/css/main.a12e0c2d.chunk.css.map",
+    "static/js/2.df49d184.chunk.js.LICENSE.txt": "/cse-210-team-project-triton-pantry-tracker/static/js/2.df49d184.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/cse-210-team-project-triton-pantry-tracker/static/media/bg_logo.08cf82c6.png",
+    "static/media/dx.light.css": "/cse-210-team-project-triton-pantry-tracker/static/media/dxicons.e4acc9c2.woff2",
+    "static/media/logo_tracker.a4c23480.svg": "/cse-210-team-project-triton-pantry-tracker/static/media/logo_tracker.a4c23480.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d7067193.js",
-    "static/css/2.4bdf1820.chunk.css",
+    "static/js/runtime-main.9c3315cc.js",
+    "static/css/2.63e1412a.chunk.css",
     "static/js/2.df49d184.chunk.js",
-    "static/css/main.b0d36b30.chunk.css",
+    "static/css/main.a12e0c2d.chunk.css",
     "static/js/main.41d8b782.chunk.js"
   ]
 }
