@@ -13,18 +13,22 @@ import AboutUs from "./Component/AboutUs";
 import { ImageList } from "@material-ui/core";
 import { Url } from "devextreme-react/chart";
 import background from "./Images/bg_logo.png";
+import { Center } from "devextreme-react/map";
 
 function App() {
   return (
     <div
-      className="App"
-      style={{
-        backgroundSize: "cover",
-        backgroundImage: `url(${background})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "100%",
-        backgroundAttachment: "fixed",
-      }}
+      className="App parallax"
+      // style={{
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      //   // height: "100vh",
+      //   backgroundImage: `url(${background})`,
+      //   backgroundRepeat: "np-repeat",
+      //   // backgroundSize: "cover",
+      //   // backgroundAttachment: "fixed",
+      //   margin: "0px",
+      // }}
     >
       <Router>
         <Navbar />
@@ -39,6 +43,7 @@ function App() {
           <Route path="/scheduler" element={<MyScheduler />}></Route>
         </Routes>
       </Router>
+      {/* <div className="container-fluid"></div> */}
     </div>
   );
 }
