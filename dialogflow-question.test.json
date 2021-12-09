@@ -1,0 +1,29 @@
+{
+  "responseId": "98ab6c75-dc87-48c0-8655-190c901261f3-87a8b854",
+  "queryResult": {
+    "queryText": "what are the pantry timings?",
+    "parameters": {
+      "any": "timings?"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Student Center A: Monday - 1pm to 5pm, Tuesday - 1pm to 5 pm, Wednesday - 3 pm to 7 pm, Thursday - 1pm to 5 pm, Friday - 1pm to 5pm. Graduate Housing: Monday - 11am to 1pm, Tuesday - 9am to 12pm, Wednesday - 9 am to 12 pm, Thursday - 1pm to 5 pm, Friday - 1pm to 5pm.",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Student Center A: Monday - 1pm to 5pm, Tuesday - 1pm to 5 pm, Wednesday - 3 pm to 7 pm, Thursday - 1pm to 5 pm, Friday - 1pm to 5pm. Graduate Housing: Monday - 11am to 1pm, Tuesday - 9am to 12pm, Wednesday - 9 am to 12 pm, Thursday - 1pm to 5 pm, Friday - 1pm to 5pm."
+          ]
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/tritonpantrytracker/agent/intents/404cf94a-40f6-4c92-9f9a-0eaee6050e77",
+      "displayName": "pantryOperatingHours"
+    },
+    "intentDetectionConfidence": 0.6906761,
+    "languageCode": "en",
+    "sentimentAnalysisResult": {
+      "queryTextSentiment": {}
+    }
+  }
+}
