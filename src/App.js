@@ -1,5 +1,5 @@
-import 'devextreme/dist/css/dx.common.css';
-import 'devextreme/dist/css/dx.light.css';
+import "devextreme/dist/css/dx.common.css";
+import "devextreme/dist/css/dx.light.css";
 import "./App.css";
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MyScheduler from './Component/Scheduler'
@@ -17,18 +17,25 @@ import Dashboard from './Component/OMSDashboard';
 import Dashboard1 from './Component/SCDashboard';
 
 function App() {
-        return(
-            <div className="App" style={{backgroundSize:"cover",backgroundImage: `url(${background})` ,backgroundRepeat: 'repeat-y',backgroundSize:"100%", backgroundAttachment:"fixed"}}>
-                
-            <Router>
-            <Navbar />
+  return (
+    <div
+      className="App"
+      style={{
+        backgroundSize: "cover",
+        backgroundImage: `url(${background})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "100%",
+        backgroundAttachment: "fixed",
+      }}
+    >
+      <Router>
+        <Navbar />
 
                     <Routes>
                     <Route path='/' exact element={<AboutUs/>} />
                     <Route path='/gradhousing' element={<Categories/>} />
                     <Route path='/studentcenter' element={<Categories/>} />
                     <Route path='/contactus' element={<ContactUs/>} />
-                    <Route path='/mygallery' element={<MyGallery/>} />
                     <Route path='/chatbot' element={<Chatbot/>}  />
                     <Route path='/scheduler' element={<MyScheduler/>} />
                     <Route path='/dashboard' element={<Dashboard/>} />

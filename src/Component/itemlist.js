@@ -4,7 +4,7 @@
 // import { parseDate } from "devextreme/localization";
 
 function ItemList({ listItems }) {
-  console.log(listItems);
+  // console.log(listItems);
   return <div className="itemlist">{listItems}</div>;
 }
 

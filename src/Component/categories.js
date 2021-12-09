@@ -10,107 +10,124 @@ import auth from "./auth";
 function Categories() {
   const [cat, setCat] = useState("Init");
   const [listItemsState, setListItemsState] = useState(window.$produceItems);
-  
-  var pantrylocation = window.location.pathname
-  if (pantrylocation.indexOf("gradhousing") > -1 ) {
+
+  var pantrylocation = window.location.pathname;
+  if (pantrylocation.indexOf("gradhousing") > -1) {
     pantrylocation = "Graduate Housing";
   } else {
     pantrylocation = "Student Center A";
-  };
+  }
 
-  useEffect (() => {
+  useEffect(() => {
     if (window.location.href != document.referrer) {
       window.location.reload();
       setCat("Init");
+      console.log(window.location.href);
+      console.log(document.referrer);
+
+      // if (pantrylocation === "Graduate Housing") {
+
+      // }
+      window.location.href = window.location.pathname;
       setListItemsState(window.$produceItems);
+      console.log(window.location.href);
+
       window.$listItems = [];
     }
   });
-
 
   var config = {
     address: auth.AUTH_API_ID,
   };
   window.$listItems = [];
   var client = sheetdb(config);
-  client.read({ search: { category: "Produce", location: pantrylocation } }).then(
-    function (data) {
-      var parsedData = JSON.parse(data);
-      console.log(parsedData);
-      // console.log(typeof data);
-      window.$produceItems = parsedData.map((pd) => (
-        <Item
-          name={pd.name}
-          category={pd.category}
-          quantity={pd.quantity}
-          imageurl={pd.imageURL}
-        ></Item>
-      ));
-    },
-    function (err) {
-      console.log(err);
-    }
-  );
-  client.read({ search: { category: "Dairy/Frozen", location: pantrylocation } }).then(
-    function (data) {
-      var parsedData = JSON.parse(data);
-      console.log(parsedData);
-      // console.log(typeof data);
-      window.$dairyItems = parsedData.map((pd) => (
-        <Item
-          name={pd.name}
-          category={pd.category}
-          quantity={pd.quantity}
-          imageurl={pd.imageURL}
-        ></Item>
-      ));
-    },
-    function (err) {
-      console.log(err);
-    }
-  );
-  client.read({ search: { category: "Dry Products", location: pantrylocation } }).then(
-    function (data) {
-      var parsedData = JSON.parse(data);
-      console.log(parsedData);
-      // console.log(typeof data);
-      window.$dryItems = parsedData.map((pd) => (
-        <Item
-          name={pd.name}
-          category={pd.category}
-          quantity={pd.quantity}
-          imageurl={pd.imageURL}
-        ></Item>
-      ));
-    },
-    function (err) {
-      console.log(err);
-    }
-  );
-  client.read({ search: { category: "Produce", location: pantrylocation } }).then(
-    function (data) {
-      var parsedData = JSON.parse(data);
-      // console.log(parsedData);
-      // console.log(typeof data);
-      window.$listItems = parsedData.map((pd) => (
-        <Item
-          name={pd.name}
-          category={pd.category}
-          quantity={pd.quantity}
-          imageurl={pd.imageURL}
-        ></Item>
-      ));
-    },
-    function (err) {
-      console.log(err);
-    }
-  );
+  client
+    .read({ search: { category: "Produce", location: pantrylocation } })
+    .then(
+      function (data) {
+        var parsedData = JSON.parse(data);
+        // console.log(parsedData);
+        // console.log(typeof data);
+        window.$produceItems = parsedData.map((pd) => (
+          <Item
+            name={pd.name}
+            category={pd.category}
+            quantity={pd.quantity}
+            imageurl={pd.imageURL}
+          ></Item>
+        ));
+      },
+      function (err) {
+        console.log(err);
+      }
+    );
+  client
+    .read({ search: { category: "Dairy/Frozen", location: pantrylocation } })
+    .then(
+      function (data) {
+        var parsedData = JSON.parse(data);
+        // console.log(parsedData);
+        // console.log(typeof data);
+        window.$dairyItems = parsedData.map((pd) => (
+          <Item
+            name={pd.name}
+            category={pd.category}
+            quantity={pd.quantity}
+            imageurl={pd.imageURL}
+          ></Item>
+        ));
+      },
+      function (err) {
+        console.log(err);
+      }
+    );
+  client
+    .read({ search: { category: "Dry Products", location: pantrylocation } })
+    .then(
+      function (data) {
+        var parsedData = JSON.parse(data);
+        // console.log(parsedData);
+        // console.log(typeof data);
+        window.$dryItems = parsedData.map((pd) => (
+          <Item
+            name={pd.name}
+            category={pd.category}
+            quantity={pd.quantity}
+            imageurl={pd.imageURL}
+          ></Item>
+        ));
+      },
+      function (err) {
+        console.log(err);
+      }
+    );
+  client
+    .read({ search: { category: "Produce", location: pantrylocation } })
+    .then(
+      function (data) {
+        var parsedData = JSON.parse(data);
+        // console.log(parsedData);
+        // console.log(typeof data);
+        window.$listItems = parsedData.map((pd) => (
+          <Item
+            name={pd.name}
+            category={pd.category}
+            quantity={pd.quantity}
+            imageurl={pd.imageURL}
+          ></Item>
+        ));
+      },
+      function (err) {
+        console.log(err);
+      }
+    );
 
   return (
     <div>
       <div className=" categoryDiv restrict text-center">
         <button
-          className="categoryButton btn" style={{backgroundColor: "#22423b"}}
+          className="categoryButton btn"
+          style={{ backgroundColor: "#22423b" }}
           name="Produce"
           onClick={() => {
             setCat("Produce");
@@ -120,7 +137,8 @@ function Categories() {
           Produce
         </button>
         <button
-          className="categoryButton btn" style={{backgroundColor: "#22423b"}}
+          className="categoryButton btn"
+          style={{ backgroundColor: "#22423b" }}
           name="Dairy/Frozen"
           onClick={() => {
             setCat("Dairy/Frozen");
@@ -130,7 +148,8 @@ function Categories() {
           Dairy/Frozen
         </button>
         <button
-          className="categoryButton btn" style={{backgroundColor: "#22423b"}}
+          className="categoryButton btn"
+          style={{ backgroundColor: "#22423b" }}
           name="Dry Products"
           onClick={() => {
             setCat("Dry Products");
