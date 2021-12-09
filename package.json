@@ -2,6 +2,7 @@
   "name": "triton-food-pantry",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ucsd-cse-210-2021.github.io/cse-210-team-project-triton-pantry-tracker/",
   "dependencies": {
     "@feedback-fish/react": "^1.2.1",
     "@material-ui/core": "^4.12.3",
@@ -23,10 +24,14 @@
     "react-scripts": "4.0.3",
     "save": "^2.4.0",
     "sheetdb-node": "0.0.12",
+    "tableau-api": "^2.2.3",
     "web-vitals": "^1.1.2"
+    
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -50,6 +55,7 @@
     ]
   },
   "devDependencies": {
-    "devextreme-themebuilder": "^21.1.5"
+    "devextreme-themebuilder": "^21.1.5",
+    "gh-pages": "^3.2.3"
   }
 }
