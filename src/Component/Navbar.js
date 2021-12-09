@@ -21,8 +21,7 @@ function Navbar() {
             <div className="links">
               <ul
                 className="navbar-nav"
-                style={{ fontSize: "25px", fontFamily: "Book Antiqua" }}
-              >
+                style={{ fontSize: "25px", fontFamily: "Book Antiqua" }}>
                 <li className="nav-item">
                   <Link to="/">
                     <b style={{ color: "white" }}>Home</b>
@@ -51,15 +50,19 @@ function Navbar() {
                 {/* <li className="nav-item">
                         <Link to= "/mygallery">Gallery</Link>
                         </li> */}
-                <li className="nav-item">
-                  <Link to="/chatbot">
-                    <b style={{ color: "white" }}>Chatbot</b>
-                  </Link>
-                </li>
-              </ul>
+                        <li className="nav-item">
+                        <Link to= "/chatbot"><b style={{color:"white"}}>Chatbot</b></Link>
+                        </li>
+                        <li className="nav-item">
+                        <Link to= "/dashboard"><b style={{color:"white"}}>GradHousingDashboard</b></Link>
+                        </li>
+                        <li className="nav-item">
+                        <Link to= "/dashboard1"><b style={{color:"white"}}>StudentCenterDashboard</b></Link>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
       </nav>
       {/* </div> */}
     </>
