@@ -1,0 +1,60 @@
+{
+    "id": "404cf94a-40f6-4c92-9f9a-0eaee6050e77",
+    "name": "pantryOperatingHours",
+    "auto": true,
+    "contexts": [],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "",
+        "affectedContexts": [],
+        "parameters": [
+          {
+            "id": "f2a1cbc8-006d-4e36-8679-6564233c4422",
+            "name": "any",
+            "required": true,
+            "dataType": "@sys.any",
+            "value": "$any",
+            "defaultValue": "",
+            "isList": false,
+            "prompts": [],
+            "promptMessages": [],
+            "noMatchPromptMessages": [],
+            "noInputPromptMessages": [],
+            "outputDialogContexts": []
+          }
+        ],
+        "messages": [
+          {
+            "type": "0",
+            "title": "",
+            "textToSpeech": "",
+            "lang": "en",
+            "speech": [
+              "Student Center A: Monday - 1pm to 5pm, Tuesday - 1pm to 5 pm, Wednesday - 3 pm to 7 pm, Thursday - 1pm to 5 pm, Friday - 1pm to 5pm."
+            ],
+            "condition": ""
+          },
+          {
+            "type": "0",
+            "title": "",
+            "textToSpeech": "",
+            "lang": "en",
+            "speech": [
+              "Graduate Housing: Monday - 11am to 1pm, Tuesday - 9am to 12pm, Wednesday - 9 am to 12 pm, Thursday - 1pm to 5 pm, Friday - 1pm to 5pm."
+            ],
+            "condition": ""
+          }
+        ],
+        "speech": []
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+  }

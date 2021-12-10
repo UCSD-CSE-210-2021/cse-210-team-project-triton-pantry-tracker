@@ -1,0 +1,50 @@
+{
+    "id": "0697d468-1d83-44c2-bb93-ecfe0aece285",
+    "name": "bringBag",
+    "auto": true,
+    "contexts": [],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "",
+        "affectedContexts": [],
+        "parameters": [
+          {
+            "id": "9c2b26eb-a92d-4953-b2e3-c67b4dcb0ff7",
+            "name": "any",
+            "required": true,
+            "dataType": "@sys.any",
+            "value": "$any",
+            "defaultValue": "",
+            "isList": false,
+            "prompts": [],
+            "promptMessages": [],
+            "noMatchPromptMessages": [],
+            "noInputPromptMessages": [],
+            "outputDialogContexts": []
+          }
+        ],
+        "messages": [
+          {
+            "type": "0",
+            "title": "",
+            "textToSpeech": "",
+            "lang": "en",
+            "speech": [
+              "The pantry at Student Center A requires students to bring their own bags. The pantry at One Miramar Street Graduate Housing offers bags, but strongly encourages students to bring their own reusable bags."
+            ],
+            "condition": ""
+          }
+        ],
+        "speech": []
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+  }

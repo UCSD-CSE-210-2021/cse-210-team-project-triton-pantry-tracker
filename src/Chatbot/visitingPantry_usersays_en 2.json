@@ -1,0 +1,78 @@
+[
+  {
+    "id": "f1cfa9de-fb77-4331-98ce-32f22cb467ea",
+    "data": [
+      {
+        "text": "visit",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " the",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c620fd77-851a-42ac-8934-bce0f55b5c70",
+    "data": [
+      {
+        "text": "allowed",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "03ded51f-1a05-412e-804d-ad0701a94307",
+    "data": [
+      {
+        "text": "allowed to visit the",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " pantry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "658e4153-98ca-4d74-b551-800b64f0875d",
+    "data": [
+      {
+        "text": "Who is ",
+        "userDefined": false
+      },
+      {
+        "text": "allowed to visit",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      },
+      {
+        "text": " the pantry?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

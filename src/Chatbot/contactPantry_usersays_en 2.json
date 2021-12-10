@@ -1,0 +1,70 @@
+[
+    {
+      "id": "58fb564b-299f-44a7-818b-e1cfc22481f4",
+      "data": [
+        {
+          "text": "email id",
+          "meta": "@sys.any",
+          "alias": "any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "en",
+      "updated": 0
+    },
+    {
+      "id": "311b866b-c0d3-4fa1-a843-0c4126bef9ec",
+      "data": [
+        {
+          "text": "email",
+          "meta": "@sys.any",
+          "alias": "any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "en",
+      "updated": 0
+    },
+    {
+      "id": "f9aa0422-5c83-4e6e-a38d-dd280f4f8418",
+      "data": [
+        {
+          "text": "contact",
+          "meta": "@sys.any",
+          "alias": "any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "en",
+      "updated": 0
+    },
+    {
+      "id": "43db92e4-34c6-4fc2-8000-7c103f8e14b3",
+      "data": [
+        {
+          "text": "How can I ",
+          "userDefined": false
+        },
+        {
+          "text": "contact",
+          "meta": "@sys.any",
+          "alias": "any",
+          "userDefined": true
+        },
+        {
+          "text": " the pantry?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "en",
+      "updated": 0
+    }
+  ]
